@@ -8,7 +8,7 @@ public class RectangleElc {
 		double rect=Double.parseDouble(sc.nextLine());
 		double peri=Double.parseDouble(sc.nextLine());
 		
-		//Rectangle rect1=new Rectangle("Area:"+rect1());
+		System.out.println("Hello");
 		
 	}
 }
