@@ -17,7 +17,7 @@ public class TryDemo
 		{
 			IO.println("Inside catch block");
 			IO.print(e);
-		}
+		}	
 		IO.println("Main method completed");
 	}
 }
