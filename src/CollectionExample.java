@@ -1,15 +1,10 @@
-import java.util.ArrayList;
+import java.util.*;
 
-public class CollectionExample {
-	public static void main(String[] args) {
-		ArrayList<String> al = new ArrayList<>();
-		al.add("google");
-		al.add("Naresh");
-		al.add("Information");
-		al.add("Technology");
-		for(int i=0;i<al.size();i++) 
-		{
-			System.out.print(al.get(i).substring(0,6));
-		}
-	}
+public class CollectionExample
+{
+       public static void main(String[] args) 
+       {
+             List<Number> list =Arrays.asList(1,2,3,4);
+             list.remove(0);
+       }
 }
