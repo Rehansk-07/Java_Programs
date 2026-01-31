@@ -16,7 +16,7 @@ public class HashMapDemo1 {
 		IO.println(map);
 		
 		IO.println("By using forEach method :");
-		map.forEach((key,value)->IO.println("Key is :"+key+"Value is :"+value));
+		map.forEach((key,value)->IO.println("Key is :"+key+" Value is :"+value));
 		
 		String icecream = map.get(4);
 		IO.println(icecream);
